@@ -3,7 +3,9 @@
 <head>                    <!-- This is the head of the website and here we can put the name of our website -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>     <!-- This is title , it's is used to give the title or the name to the weebsite -->
+    <title>My first website</title>  
+    <!-- Adding the icon to the website -->
+   <link rel="icon" type="image/png" href="image/Screenshot 2025-11-08 145230.png" > <!-- Here's how we can add the icon to the website , as I don'y ahve a  -->   <!-- This is title , it's is used to give the title or the name to the weebsite -->
 </head>
 <body>
 
@@ -41,8 +43,8 @@
      <a  href="https://www.youtube.com/"         
         title = "Goes to Youtube"
         target="_blank">
-        click me                            <!-- here href is used to add hyperlink to the website , title is shows the the additional text when we place the cursor 
-                                                   on the link , adn finally the target is used to open the link on a new window or tab.-->
+        click me                            <!-- here href is used to add hyperlink to the website , title is shows the the additional text when we place the cursor is
+                                                   on the link , and finally the target is used to open the link on a new window or tab.-->
      </a>                                   <!-- This is an absolute hyperlink -->
 
      <br>
@@ -53,7 +55,7 @@
         secret recipe                       <!-- This is a relative hyperlink in which I have used my own HTML file as a source -->
      </a>
      <br>
-     <a href="mailto: abc@Gmail.com"
+     <a href="mailto:abc@Gmail.com"
         title="Email to abc"
         target="_blank">
         email to                             <!-- We can also send a email to anyone by using "mailto: " and then the persons email in the hyperlink (href)-->
@@ -86,7 +88,109 @@
                                                       "loop" attribute to play the song or audio again and again . -->
 
 
-    <!-- Adding the icon t the website -->
-   <link rel="icon" type="image/png" href="image/Screenshot 2025-11-08 145230.png"> <!-- Here's how we can add the icon to the website , as I don'y ahve a  -->
+    <!-- Text Formatting-->
+     <p> This is a normal text </p>            <!--  -->
+     <p> This is a <b>bold</b> text </p>        <!-- we can make a text bold by placing the desired text in between <b> some text </b> -->
+     <p> This is an<i> Italic </i> text </p>      <!-- Same as the bold text we can make the desired text to italic font by placing it between <i></i>-->
+     <p> This is an<u> underlined</u> text </p>    <!-- We use <u></u> to give a underline to a sentance or text -->
+     <p> This is a<del>deleted</del> text </p>   <!-- By sandwhiching the sentance or text in between <del></del> the sentance or text gets a line crossing them horizontally  -->
+     <p> This is a<big> bigger</big> text </p>       <!-- We can make a a text or sentance bigger by placing it in between <big></big>-->
+     <p> This is a<small> smaller</small> text </p>  <!-- We can make the sentance or text smaller by placing it in between <small></small>-->
+     <p> This is a<sub> subscripted </sub> text </p>  
+     <p> This is a<sup> superscrpited </sup> text </p>  
+     <p> This is a<tt> monospaced </tt> text </p>  
+     <p> This is a <mark> marked</mark> text </p>
+     <p> We can change the color of the maarked text by <mark style="background-color: red;">the style attribute </mark>  . </p> 
+
+
+
+     <!--GROUP TOGETHER HTML -->
+     <!-- <span> inline container to group element for styling purpose. -->
+     <!-- <div> block contaniner to group element for stye purpose. -->
+
+      <!--Example of span text -->
+       <h1>
+         <span style="background-color:turquoise;">        <!-- this is a inline level container so it will apply the styling to a line only -->
+            This is a span text
+         </span>
+       </h1>
+
+       <!-- Example for div text -->
+        <h1>
+         <div style="background-color: tomato;">           <!-- This is a block level container so it will crate a block for the styling -->
+            This is a div text  
+         </div>
+        </h1>
+        <br>
+        <br>
+
+        <!-- For example -->
+
+         <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<span style="background-color: aquamarine;"> Ullam id praesentium quod porro et labore odio iste accusantium error officia. Vitae inventore quo natus dolor quibusdam fugiat facere quas incidunt</span>.
+         </h3>
+         <br>
+         <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color:cyan;">Temporibus, molestiae autem perferendis aspernatur fugit cumque aliquid ducimus qui, vel aperiam nulla. Officiis modi, sit dicta deserunt tempore qui beatae fugiat.</div>
+         </h3>
+
+
+         <!-- Lists in HTML -->
+
+         <!-- Unordered list -->
+          <h4> Groceries </h4>
+          <ul>
+            <li> Milk </li>
+            <li> Eggs </li>
+            <li> Coffee</li>
+            <ul>
+               <li> Coffee beans </li>
+               <li> Creamer </li>
+               <li> Sugar </li>
+            </ul>
+          </ul>
+          <br>
+
+
+         <!-- Ordered list -->
+          <h3> To do list </h3>
+          <ol>
+            <li> Wake up at 6 am. </li>
+            <li> Brush your teeth. </li>
+            <li> Go for a morning walk. </li>
+            <li> Eaat breakfast. </li>
+          </ol>
+          <br>
+
+
+         <!-- Discriptive list -->
+          <dl style="background-color: blanchedalmond;"  >
+            <dt> Dragon </dt>
+            <dd>Dragon is a mythical creature that reassembles a reptile with wings .</dd>
+            <br>
+            <dt> Phenoix </dt>
+            <dd>An immortal bird associated with greek mythology . </dd>
+          </dl>
+
+
+
+
+          <!--  Tables in HTML  -->
+         <table border="2" style="background-color: brown;">
+            <tr align="center" style="background-color: lightcoral;">
+               <th width="100"> Monday </th>
+               <th width="100">Tuesday </th>
+               <th width="100"> Wednesday </th>
+               <th width="100"> Thursday</th>
+               <th width="100"> Friday </th>
+            </tr>
+            <tr align="center" style="background-color: bisque;">
+               <td> 1 </td>
+               <td> 2 </td>
+               <td> 3 </td>
+               <td> 4 </td>
+               <td> 5 </td>
+            </tr>
+         </table>
 </body>
-</html>
+</html> 

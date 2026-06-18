@@ -171,7 +171,7 @@
             <dt> Phenoix </dt>
             <dd>An immortal bird associated with greek mythology . </dd>
           </dl>
-
+          <br>
 
 
 
@@ -192,5 +192,51 @@
                <td> 5 </td>
             </tr>
          </table>
+
+         <br>
+         <br>
+
+         <!-- Adding buttons-->
+          <button style="font-size:30px; background-color: beige; color: red;"> click me  </button>
+
+          <br>
+          <br>
+
+          <a href="https://www.youtube.com/" target="_blank" title="Goes to youtube">
+            <button style="font-size:25px; background-color: darkred; color: bisque; border-radius:30px;">
+               CLICK ME !! 
+            </button>
+          </a>
+          <br>
+          <br>
+
+
+          <!-- Creating a form -->
+           <form>
+            <label for="username">Username : </label>
+            <input type="text" id="username" minlength="7" maxlength="20" required>
+            <br>
+                                                            
+            
+            <br>
+            <label for="password">Password : </label>
+            <input type="password" id="password"  minlength="5" maxlength="9" required>
+            <br>
+            <br>
+            
+            
+            <label for="email">Email : </label>
+            <input type="email" id="email" placeholder="type@gmail.com" ><br><br>
+
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3} - [0-9]{3} - [0-9]{4}"><br><br>
+
+            <label for="birthday"> Birthday: </label>
+            <input type="date" id="birthday"><br><br>
+
+            <input type="reset">
+            <input type="submit">                              <!-- We can also submit the information by type "submit"--> <!-- Here I don't have a backend yet so the submit button will not work . -->
+            
+           </form>
 </body>
 </html> 

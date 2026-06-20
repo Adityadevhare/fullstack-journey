@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+/* p{
+    color: whitesmoke;  By this method we can apply the css property to all the p tags , 
+                        but if we have to do apply the css to the specific tag . We have to give the the tag a specifc id in HTML file .
+} */
+
+#p1{
+    color: beige;
+}
+
+#p2{
+    color: aliceblue;        /* here we have applied the css property by referring to the id's of the tags*/ 
+}
+
+#p3{
+    color: aquamarine;
+}
+
+/* we can also put the css properties by using the class attribute form the HTML file . */
+/*By class attribute the css properties can be applied to all the tags or element have the same class . */
+.name{
+    color: red;
+}
+
+.side_info{
+    color:white;
+}

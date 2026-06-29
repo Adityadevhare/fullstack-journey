@@ -55,3 +55,13 @@ h1{
 .nothing{
     color:hsl(124, 56%, 40%)
 }
+
+
+/* Learning Fonts-family */
+.Fonts{
+    color: hsl(177, 93%, 47%);
+    font-family: Eagle Lake , Bitcount Single;
+    font-size: 18px ; /* we can use the unit of measurements as either "px" or "em"*/
+    font-weight: bold;
+    font-style: italic;
+}

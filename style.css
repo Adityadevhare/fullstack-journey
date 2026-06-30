@@ -8,7 +8,7 @@ h1{
 
 /* p{
     color: whitesmoke;  By this method we can apply the css property to all the p tags , 
-                        but if we have to do apply the css to the specific tag . We have to give the the tag a specifc id in HTML file .
+                        but if we have to do apply the css to the specific tag . We have to give the the tag a specific id in HTML file .
 } */
 
 #p1{
@@ -65,3 +65,12 @@ h1{
     font-weight: bold;
     font-style: italic;
 }
+/*
+We can also add fonts by downloading them and adding or placing them in our VS code , So that we can access them directly . 
+once we wre done with that we have to do : 
+
+@font-face{
+       src:url(Path of the font);
+       font-family: name that you would like to give it . 
+}
+*/
